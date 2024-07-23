@@ -1,0 +1,31 @@
+body {
+    font-family: Zain;
+    background-color: white;
+    color: black;
+    font-size: medium;
+}
+
+.Theme-Dark {
+    background-color: #383838;
+    color: white;
+    transition: all 700ms;
+}
+
+.Theme-Light {
+    background-color: #c9d6ff;
+    color: rgb(0, 0, 0);
+    transition: all 700ms;
+}
+
+.ThemeIcon {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.ThemeStatus {
+    font-size: 40px;
+}
